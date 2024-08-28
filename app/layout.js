@@ -30,7 +30,7 @@ export default function RootLayout({ children }) {
         </div>
 
 
-        <div id="project" classid="bg-black px-2 py-1" >
+        <div id="project" className="bg-black px-2 py-1" >
           <Project />
         </div>
 
