@@ -23,6 +23,8 @@ import Link from 'next/link';
 
 const page = () => {
 
+  console.log(process.env);
+  console.log(process.env.PUBLIC_URL);
 
   const DynamicTypewriter = dynamic(() => import('../components/ClientsideTypeWritter.js'), {
     ssr: false,

@@ -19,7 +19,7 @@ const Footer = () => {
         </svg> */}
         <Image src={devloper} alt="Ankush Gupta" width={40} height={40} className=" flex title-font font-medium items-center  " />
 
-        <span className="ml-3 text-xl text-white">Ankush's Developer <span className='text-[#aa6be4]'> Portfolio </span></span>
+        <span className="ml-3 text-xl text-white">Ankush&apos;s Developer <span className='text-[#aa6be4]'> Portfolio </span></span>
       </Link>
       <p className="text-sm text-white text-center mt-6">This Web Developed By Ankush Gupta</p>
     </div>
