@@ -15,17 +15,17 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "ankushgupta - Portfolio",
-  description: "This is oficial portfolio and all about ankush gupta Devloper! ",
+  description: "This is official portfolio and all about ankush gupta Devloper! ",
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className="scroll-smooth">
-      <body className={inter.className}>
-        <Navbar  />
-
-
-        <div id="home" className="bg-black px-2 py-1  ">
+      <body className={inter.className}  >
+        <div className="w-full">
+          <Navbar />
+        </div>
+        <div id="home" className="bg-black px-2 py-1 ">
           {children}
         </div>
 

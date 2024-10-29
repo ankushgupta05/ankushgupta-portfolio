@@ -56,14 +56,14 @@ const page = () => {
 
     return (
 
-        <div className="bg-gray-900 text-white min-h-screen p-4 md:p-12 rounded-md">
-            <div className=''>
+        <div className="bg-gray-900 text-white min-h-screen pt-20 md:p-12  rounded-md">
+            <div className='px-3'>
                 <h2 className="text-lg mb-3">My Achievement</h2>
                 <h1 className="text-3xl md:text-4xl font-bold  text-purple-400 mb-4">Future Goal</h1>
                 <hr className='md:w-[15%] w-[50%] border-purple-700' />
             </div>
 
-            <div className="relative mt-32">
+            <div className="relative md:mt-32 mt-40 ">
                 {/* Horizontal line */}
                 <div className="absolute h-1 w-full bg-white top-8 left-0"></div>
 

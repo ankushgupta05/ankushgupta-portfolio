@@ -10,7 +10,7 @@ const Navbar = () => {
     return (
 
         // <header className="text-white  body-font bg-[#84adea] ">
-        <header className="text-white  body-font bg-[#1a237e] ">
+        <header className="text-white  body-font bg-[#1a237e]  ">
             <div className="container mx-auto flex flex-wrap flex-col md:flex-row items-center p-2 px-10  ">
                 <Link href="/" className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
                     <Image src={devloper} alt="Ankush Gupta" width={40} height={40} className=" flex title-font font-medium items-center  " />
