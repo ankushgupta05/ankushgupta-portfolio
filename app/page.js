@@ -86,7 +86,9 @@ const page = () => {
               </div>
 
               <button className="bg-yellow-400 text-black font-bold py-2 rounded w-full">
-                DownloadCV
+                <a href="/Documents/ankushgupta.pdf" download target='_blank' rel="noopener noreferrer">
+                  DownloadCV
+                </a>
               </button>
             </div>
 
